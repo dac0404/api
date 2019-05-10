@@ -1,0 +1,26 @@
+{
+  "name": "new_tax_api",
+  "version": "1.0.0",
+  "description": "api for tax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "RestAPI",
+    "MySql"
+  ],
+  "author": "deyvi",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "emailjs": "^2.2.0",
+    "js2xmlparser": "^3.0.0",
+    "mysql": "^2.15.0",
+    "restify": "^6.3.4",
+    "socket.io": "^2.2.0",
+    "twilio": "^3.30.1",
+    "write-file": "^1.0.0"
+  }
+}
