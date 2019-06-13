@@ -12,21 +12,21 @@ var server = restify.createServer({
   version: '1.0.0'
 })
 
-var db_config = {
-  host: "localhost",
-  user: "root",
-  password: "1234",
-  database: "pupilocm",
-  multipleStatements: true
-};
-
 // var db_config = {
-//   host: "69.87.220.221",
-//   user: "mysql_pupilo",
-//   password: "W3lcome.557223",
+//   host: "localhost",
+//   user: "root",
+//   password: "1234",
 //   database: "pupilocm",
 //   multipleStatements: true
 // };
+
+var db_config = {
+  host: "69.87.220.221",
+  user: "mysql_pupilo",
+  password: "W3lcome.557223",
+  database: "pupilocm",
+  multipleStatements: true
+};
 
 
 var io = SocketIO.listen(server.server);
